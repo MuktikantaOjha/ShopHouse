@@ -10,95 +10,112 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 		<!-- navbar -->
 		<header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand" href="#">ShopHouse.com</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">About</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Register
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">LogIn</a>
-							<a class="dropdown-item" href="#">SignUP</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#"></a>
-						</div>
-					</li>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a class="navbar-brand" href="#">ShopHouse.com</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Register
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">LogIn</a>
+								<a class="dropdown-item" href="#">SignUP</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#"></a>
+							</div>
+						</li>
+						
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+					</form>
+				</div>
+			</nav>
+			<!-- navbarend -->
+			<!-- carousel -->
+			<style>
+			/* Make the image fully responsive */
+			.carousel-inner img {
+			width: 100%;
+			/*height: 70%;*/
+			}
+			
+			
+			</style>
+		</head>
+		<body>
+			<div id="demo" class="carousel slide" data-ride="carousel">
+				<ul class="carousel-indicators">
+					<li data-target="#demo" data-slide-to="0" class="active"></li>
+					<li data-target="#demo" data-slide-to="1"></li>
+					<li data-target="#demo" data-slide-to="2"></li>
 					
 				</ul>
-				<form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-				</form>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="images/clothes.jpg" alt="" width="1100" height="500">
+						<div class="carousel-caption">
+							<h3><strong>Clothes</strong></h3>
+							<p><strong>"What you wear is how you present yourself to the world, especially today, when human contacts are so quick. Fashion is instant language."</strong></p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="images/vegetables.jpg" alt="Chicago" width="1100" height="500">
+						<div class="carousel-caption">
+							<h3><strong>Green Vegetables</strong></h3>
+							<p><strong>Green leafy vegetables are the best source of folic acid which is of great significance for pregnant women. Greens are rich in calcium, iron, potassium and zinc and these are the reasons why all the doctors advise to make green vegetables a part of almost every diet.</strong></p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="images/grocery.jpg" alt="New York" width="1100" height="500">
+						<div class="carousel-caption">
+							<h3><strong>Grocery</strong></h3>
+							<p><strong>Grocery Shopping Quotes. The best way to get anybody's attention is dinner. I like being able to go grocery shopping and not feel that I'm fighting a thousand people. I do wait in line, and I do take the subway, and I do my own grocery shopping, and I do take the kids to school.</strong></p>
+						</div>
+					</div>
+					
+				</div>
+				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#demo" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
 			</div>
-		</nav>
-		<!-- navbarend -->
-		<!-- carousel -->
-		<style>
-		/* Make the image fully responsive */
-		.carousel-inner img {
-		width: 100%;
-		/*height: 70%;*/
-		}
-		
-		
-		</style>
-	</head>
-	<body>
-		<div id="demo" class="carousel slide" data-ride="carousel">
-			<ul class="carousel-indicators">
-				<li data-target="#demo" data-slide-to="0" class="active"></li>
-				<li data-target="#demo" data-slide-to="1"></li>
-				<li data-target="#demo" data-slide-to="2"></li>
-				
-			</ul>
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img src="images/clothes.jpg" alt="" width="1100" height="500">
-					<div class="carousel-caption">
-						<h3><strong>Clothes</strong></h3>
-						<p><strong>"What you wear is how you present yourself to the world, especially today, when human contacts are so quick. Fashion is instant language."</strong></p>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<img src="images/vegetables.jpg" alt="Chicago" width="1100" height="500">
-					<div class="carousel-caption">
-						<h3><strong>Green Vegetables</strong></h3>
-						<p><strong>Green leafy vegetables are the best source of folic acid which is of great significance for pregnant women. Greens are rich in calcium, iron, potassium and zinc and these are the reasons why all the doctors advise to make green vegetables a part of almost every diet.</strong></p>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<img src="images/grocery.jpg" alt="New York" width="1100" height="500">
-					<div class="carousel-caption">
-						<h3><strong>Grocery</strong></h3>
-						<p><strong>Grocery Shopping Quotes. The best way to get anybody's attention is dinner. I like being able to go grocery shopping and not feel that I'm fighting a thousand people. I do wait in line, and I do take the subway, and I do my own grocery shopping, and I do take the kids to school.</strong></p>
-					</div>
-				</div>
-				
-			</div>
-			<a class="carousel-control-prev" href="#demo" data-slide="prev">
-				<span class="carousel-control-prev-icon"></span>
-			</a>
-			<a class="carousel-control-next" href="#demo" data-slide="next">
-				<span class="carousel-control-next-icon"></span>
-			</a>
-		</div>
-	</header>
-	</body>
-		<!-- carousel end -->
-
+			<!-- carousel end -->
+		</header>
 		<!-- About Us -->
-
+		<section>
+			<div class="container-fluid">
+				<h1 class=" text-capitalize text-center pt-5">About Us</h1>
+				<hr class="w-25 mx-auto pt-5">
+			</div>
+			<div class="row mb-5 ">
+				<div class="col-lg-6 col-md-6 col-12">
+					<img src="images/logo.png" alt="" class="img-fluid ml-5">
+				</div>
+				<div class="col-lg-6 col-md-6 col-12 ">
+					<h1><strong>The ShopHouse</strong></h1>
+					<p><strong>Every time you take a train, step into your car, walk into the shopping mall, go to the airport - every single time, something could happen. That's how terrorism works.
+					</strong></p>
+					<button type="button" class="btn btn-secondary">Know more</button>
+				</div>
+			</div>
+		</section>
 		<!-- aboutus end -->
 	</body>
+	
+	
+</body>
 </html>
